@@ -1,0 +1,23 @@
+.section-links {
+  ul{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $light-gray;
+    width: 80%;
+    margin: 0 auto;
+    > li {
+      padding: 8px;
+      font-family: $sans-serif;
+      .not-all:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+      }
+      .all-link:hover {
+        text-decoration: underline;
+      }
+      .all-link {
+        font-size: 10px;
+      }
+    }
+  }
+}
